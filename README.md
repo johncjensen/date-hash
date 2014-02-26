@@ -3,8 +3,9 @@ Ruby application to take user input for (year, month, day) and output what day o
 
 Using .wday will return a fixed number (day of the week | 0-6, Sunday is zero) that corresponds to a key valued pair in a hash of date names
 
-  hashie = { 0 => 'Sunday', 1 => 'Monday', 2 => 'Tuesday', 3 => 'Wednesday', 4 => 'Thursday', 5 => 'Friday', 6 => 'Saturday' }
-
+```
+hashie = { 0 => 'Sunday', 1 => 'Monday', 2 => 'Tuesday', 3 => 'Wednesday', 4 => 'Thursday', 5 => 'Friday', 6 => 'Saturday' }
+```
 
 [Ruby Date Documentation](http://ruby-doc.org/stdlib-2.1.1/libdoc/date/rdoc/Date.html#method-i-wday
 )
